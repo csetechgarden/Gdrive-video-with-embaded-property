@@ -45,19 +45,30 @@ return true;
 
 for resize for any mobile
 
+
  <style>
-              *{margin:0;padding:0;}
-html,body{height:100%;background:#333;}
-.frame{margin:auto;max-width:700px} 
-.embed{position:relative;padding-bottom:56%; /* padding-bottom = iframe width */
-clear: both;height:0;overflow:hidden;max-width:100%;height:auto}
-.embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index: 1;}
-</style>
-         
-          <div class="frame">
- <div class="embed">
-        
-<iframe width="640" height="480" src="https://drive.google.com/a/pacificu.edu/file/d/1ciDdDsw887CWB6UHnp5DcMo5iHR6uyjb/preview" frameborder="0" allowfullscreen></iframe>
-  
-</div>
-</div>
+          .video-container {
+ position:relative;
+ padding-bottom:56.25%;
+ padding-top:30px;
+ height:0;
+ overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+ position:absolute;
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+}
+          </style>
+          
+      
+ 
+<div class="video-container">
+      <iframe src="https://drive.google.com/a/pacificu.edu/file/d/1ciDdDsw887CWB6UHnp5DcMo5iHR6uyjb/preview" width="640" height="480" frameborder="0" scrolling="no" seamless allowfullscreen ></iframe>
+
+      <div style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 0px; top: 0px;">&nbsp;</div>
+
+      </div>    
