@@ -67,8 +67,7 @@ for resize for any mobile
       
  
 <div class="video-container">
-      <iframe src="https://drive.google.com/a/pacificu.edu/file/d/1ciDdDsw887CWB6UHnp5DcMo5iHR6uyjb/preview" width="640" height="480" frameborder="0" scrolling="no" seamless allowfullscreen ></iframe>
-
+     <iframe src="https://drive.google.com/file/d/1Y4C923NOTjQYOw6IuHp3nPL-vCgH8nYL/preview" width="640" height="480" frameborder="0" scrolling="no" seamless allowfullscreen ></iframe>
       <div style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 0px; top: 0px;">&nbsp;</div>
 
       </div>    
